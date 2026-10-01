@@ -117,7 +117,7 @@ export default function HeroBanner({ onOpenReservation, onOpenOrder }: HeroBanne
           <span className="text-white/40 hidden sm:inline">·</span>
           <div className="items-center gap-1 text-amber-300 hidden sm:flex">
             <Star className="w-3.5 h-3.5 fill-amber-300" />
-            <span>4.0 (2,950+ Reviews)</span>
+            <span>4.0 · Reviews - 2500+</span>
           </div>
         </div>
 
@@ -193,20 +193,57 @@ export default function HeroBanner({ onOpenReservation, onOpenOrder }: HeroBanne
         </div>
       </div>
 
-      {/* Quick Trust Strip at bottom */}
-      <div className="absolute bottom-0 inset-x-0 z-20 hidden md:block bg-stone-900/60 backdrop-blur-sm border-t border-white/10 py-3">
-        <div className="max-w-6xl mx-auto px-6 flex items-center justify-between text-xs text-stone-300">
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
-            <span className="font-medium text-white">Happy Hours:</span> 12 PM – 12 AM (All Days)
+      {/* Quick Trust Strip at bottom: Slow-Moving Marquee Ribbon */}
+      <div className="absolute bottom-0 inset-x-0 z-20 overflow-hidden bg-stone-950/85 backdrop-blur-md border-t border-white/10 py-2.5 sm:py-3 select-none">
+        <div className="animate-marquee-slow flex items-center gap-8 sm:gap-12 whitespace-nowrap text-xs text-stone-300">
+          {/* Segment 1 */}
+          <div className="flex items-center gap-8 sm:gap-12 shrink-0">
+            <div className="flex items-center gap-2">
+              <Star className="w-3.5 h-3.5 fill-[#cca563] text-[#cca563]" />
+              <span className="font-semibold text-white">Reviews - 2500+</span>
+              <span className="text-amber-300/90 font-medium">(4.0 ★ Google)</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Happy Hours:</span> 12 PM – 12 AM (All Days)
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Dining Offers:</span> Flat 30% Off on Selected Delicacies
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Experience:</span> Open-Air Sky Deck & Starlight Cabanas
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Location:</span> Centurion Mall, Nerul/Seawoods
+            </div>
           </div>
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
-            <span className="font-medium text-white">Dining Offers:</span> Flat 30% Off on Selected Delicacies
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
-            <span className="font-medium text-white">Experience:</span> Open-Air Sky Deck & Private Cabanas
+
+          {/* Segment 2 (Duplicate for continuous smooth loop) */}
+          <div className="flex items-center gap-8 sm:gap-12 shrink-0" aria-hidden="true">
+            <div className="flex items-center gap-2">
+              <Star className="w-3.5 h-3.5 fill-[#cca563] text-[#cca563]" />
+              <span className="font-semibold text-white">Reviews - 2500+</span>
+              <span className="text-amber-300/90 font-medium">(4.0 ★ Google)</span>
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Happy Hours:</span> 12 PM – 12 AM (All Days)
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Dining Offers:</span> Flat 30% Off on Selected Delicacies
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Experience:</span> Open-Air Sky Deck & Starlight Cabanas
+            </div>
+            <div className="flex items-center gap-2">
+              <span className="w-1.5 h-1.5 rounded-full bg-[#cca563]" />
+              <span className="font-medium text-white">Location:</span> Centurion Mall, Nerul/Seawoods
+            </div>
           </div>
         </div>
       </div>

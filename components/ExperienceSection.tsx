@@ -84,7 +84,7 @@ export default function ExperienceSection() {
                 </div>
                 <div>
                   <p className="text-xs uppercase tracking-wider text-stone-500 font-medium">Customer Love</p>
-                  <p className="text-stone-900 font-semibold text-sm">4.0 ★ Based on 2,950+ Reviews</p>
+                  <p className="text-stone-900 font-semibold text-sm">4.0 ★ Based on Reviews - 2500+</p>
                 </div>
               </div>
             </div>

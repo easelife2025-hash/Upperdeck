@@ -144,7 +144,7 @@ export default function Footer({ onOpenReservation, onOpenOrder }: FooterProps) 
               </div>
               <div className="flex items-center gap-2.5">
                 <Clock className="w-4 h-4 text-[#cca563] shrink-0" />
-                <span>Google Rating: 4.0 ★ (2,950+ Reviews)</span>
+                <span>Google Rating: 4.0 ★ (Reviews - 2500+)</span>
               </div>
             </div>
 
