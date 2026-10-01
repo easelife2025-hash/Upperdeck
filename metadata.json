@@ -1,0 +1,6 @@
+{
+  "name": "Upper Deck Sky Lounge",
+  "description": "Rooftop sky lounge and restaurant at Centurion Mall, Nerul/Seawoods, Navi Mumbai. Experience craft cocktails, multi-cuisine gourmet dining, and panoramic skyline views.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
