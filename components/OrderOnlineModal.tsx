@@ -73,7 +73,7 @@ export default function OrderOnlineModal({ isOpen, onClose, plannedDishesCount }
 
           {/* Direct Takeaway / Call Desk */}
           <a
-            href="tel:+918451000000"
+            href="tel:+919320725000"
             className="w-full p-4 rounded-xl border border-stone-200 hover:border-[#cca563] bg-white hover:bg-stone-50 flex items-center justify-between transition-colors group"
           >
             <div className="flex items-center gap-3">
@@ -82,7 +82,7 @@ export default function OrderOnlineModal({ isOpen, onClose, plannedDishesCount }
               </div>
               <div className="text-left">
                 <p className="text-sm font-semibold text-stone-900">Direct Takeaway & Curbside</p>
-                <p className="text-xs text-stone-500 font-light">Call: +91 84510 00000 (0% commission)</p>
+                <p className="text-xs text-stone-500 font-light">Call: +91 93207 25000 (0% commission)</p>
               </div>
             </div>
             <span className="text-xs font-semibold text-[#a37e3b]">Call Now</span>

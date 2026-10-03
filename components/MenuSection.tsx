@@ -83,7 +83,7 @@ export default function MenuSection({
       .map((item) => `• ${item.quantity}x ${item.dish.name} (₹${item.dish.price * item.quantity})`)
       .join('%0A');
     const msg = `Hi Upper Deck Sky Lounge, I am planning a table reservation and would like to pre-select these dishes:%0A%0A${itemsList}%0A%0A*Estimated Total:* ₹${grandTotal}%0APlease let me know table availability!`;
-    window.open(`https://wa.me/918451000000?text=${msg}`, '_blank');
+    window.open(`https://wa.me/919320725000?text=${msg}`, '_blank');
   };
 
   return (

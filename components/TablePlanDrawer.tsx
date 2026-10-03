@@ -49,7 +49,7 @@ export default function TablePlanDrawer({
       .join('%0A');
 
     const msg = `*Upper Deck Sky Lounge - Table Dining Pre-Selection*%0A%0A${itemsFormatted}%0A%0A*Subtotal:* ₹${subtotal}%0A*Est. 5% GST:* ₹${estimatedGst}%0A*Grand Total:* ₹${grandTotal}%0A%0AHello, I would like to reserve a table and have these dishes prepared for our dining party!`;
-    window.open(`https://wa.me/918451000000?text=${msg}`, '_blank');
+    window.open(`https://wa.me/919320725000?text=${msg}`, '_blank');
   };
 
   const handleAttachToReservation = () => {

@@ -12,7 +12,7 @@ interface FooterProps {
 export default function Footer({ onOpenReservation, onOpenOrder }: FooterProps) {
   const zomatoUrl = 'https://www.zomato.com/mumbai/upper-deck-nerul-navi-mumbai';
   const whatsappUrl =
-    'https://wa.me/918451000000?text=Hi%20Upper%20Deck%20Sky%20Lounge%2C%20I%20would%20like%20to%20reserve%20a%20table';
+    'https://wa.me/919320725000?text=Hi%20Upper%20Deck%20Sky%20Lounge%2C%20I%20would%20like%20to%20reserve%20a%20table';
 
   return (
     <footer className="bg-stone-950 text-stone-300 pt-16 pb-24 sm:pb-16 border-t border-stone-800">
@@ -138,8 +138,8 @@ export default function Footer({ onOpenReservation, onOpenOrder }: FooterProps) 
               </div>
               <div className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-[#cca563] shrink-0" />
-                <a href="tel:+918451000000" className="hover:text-white transition-colors">
-                  +91 84510 00000
+                <a href="tel:+919320725000" className="hover:text-white transition-colors">
+                  +91 93207 25000
                 </a>
               </div>
               <div className="flex items-center gap-2.5">

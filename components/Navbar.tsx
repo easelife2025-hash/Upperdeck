@@ -155,11 +155,11 @@ export default function Navbar({ onOpenReservation, onOpenOrder }: NavbarProps) 
               <p className="font-medium text-stone-800">Centurion Mall, Nerul/Seawoods</p>
               <p>Open All Days · 12:00 PM – 12:00 AM</p>
               <a
-                href="tel:+918451000000"
+                href="tel:+919320725000"
                 className="inline-flex items-center gap-2 text-[#a37e3b] font-medium pt-1"
               >
                 <Phone className="w-3.5 h-3.5" />
-                <span>Call Concierge: +91 84510 00000</span>
+                <span>Call Concierge: +91 93207 25000</span>
               </a>
             </div>
           </div>

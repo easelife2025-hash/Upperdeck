@@ -98,7 +98,7 @@ export default function ReservationSection() {
     }
 
     const msg = `*Upper Deck Sky Lounge Table Reservation*%0A%0A*Booking ID:* ${bookingConfirmed.id}%0A*Name:* ${bookingConfirmed.name}%0A*Phone:* ${bookingConfirmed.phone}%0A*Guests:* ${bookingConfirmed.guests} People%0A*Seating Area:* ${bookingConfirmed.seating}%0A*Date:* ${bookingConfirmed.date}%0A*Time:* ${bookingConfirmed.time}%0A*Occasion:* ${bookingConfirmed.occasion}%0A*Notes:* ${bookingConfirmed.request || 'None'}${dishesText}%0A%0APlease confirm my table at Centurion Mall, Nerul!`;
-    window.open(`https://wa.me/918451000000?text=${msg}`, '_blank');
+    window.open(`https://wa.me/919320725000?text=${msg}`, '_blank');
   };
 
   return (
@@ -478,14 +478,14 @@ export default function ReservationSection() {
 
               <div className="pt-2 flex flex-col sm:flex-row gap-3">
                 <a
-                  href="tel:+918451000000"
+                  href="tel:+919320725000"
                   className="flex-1 py-3 px-4 rounded-xl bg-white/10 hover:bg-white/20 border border-white/20 text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2 transition-colors min-h-[44px]"
                 >
                   <Phone className="w-3.5 h-3.5 text-[#cca563]" />
-                  <span>Call: +91 84510 00000</span>
+                  <span>Call: +91 93207 25000</span>
                 </a>
                 <a
-                  href="https://wa.me/918451000000?text=Hi%20Upper%20Deck%20Sky%20Lounge%2C%20I%20would%20like%20to%20reserve%20a%20table"
+                  href="https://wa.me/919320725000?text=Hi%20Upper%20Deck%20Sky%20Lounge%2C%20I%20would%20like%20to%20reserve%20a%20table"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex-1 py-3 px-4 rounded-xl bg-[#25D366] hover:bg-[#20ba59] text-white text-xs font-semibold uppercase tracking-wider flex items-center justify-center gap-2 shadow-sm transition-colors min-h-[44px]"

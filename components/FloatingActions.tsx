@@ -19,7 +19,7 @@ export default function FloatingActions() {
   };
 
   const whatsappUrl =
-    'https://wa.me/918451000000?text=Hi%20Upper%20Deck%20Sky%20Lounge%2C%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation.';
+    'https://wa.me/919320725000?text=Hi%20Upper%20Deck%20Sky%20Lounge%2C%20I%20would%20like%20to%20inquire%20about%20a%20table%20reservation.';
   const zomatoUrl = 'https://www.zomato.com/mumbai/upper-deck-nerul-navi-mumbai';
 
   return (
@@ -52,7 +52,7 @@ export default function FloatingActions() {
 
       {/* Floating Call Button */}
       <a
-        href="tel:+918451000000"
+        href="tel:+919320725000"
         className="pointer-events-auto group flex items-center gap-2 pl-3 pr-3.5 py-2.5 rounded-full bg-stone-900 hover:bg-stone-800 text-white shadow-lg transition-all transform hover:-translate-y-0.5 active:translate-y-0 border border-stone-700"
         title="Call Upper Deck Concierge"
       >
